@@ -4,11 +4,11 @@ import plotly.graph_objects as go
 
 class StockFetch:
 
-    def __init__(self, api_key) -> None:
-        self.api_key = api_key
+    def __init__(self, API_KEY) -> None:
+        self.API_KEY = API_KEY
         self.url = "https://alpha-vantage.p.rapidapi.com/query"
         self.headers = {
-            "x-rapidapi-key": self.api_key, 
+            "x-rapidapi-key": self.API_KEY, 
             "x-rapidapi-host": "alpha-vantage.p.rapidapi.com"
         }
 
