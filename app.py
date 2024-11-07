@@ -25,7 +25,7 @@ if __name__ == "__main__":
 
 
 # Add subheading below
-    st.subheader("By Utkarsh Gaikwad")
+    st.subheader("By Dhanashree Ambekar")
 
     # Take company as text input from user
     company = st.text_input("Please provide company : ")
